@@ -1,7 +1,7 @@
 {
-    "name": "duvk",
-    "description": "duvk yes",
-    "keywords": ["duvk yes"],
+    "name": "heroku",
+    "description": "heroku yes",
+    "keywords": ["heroku yes"],
     "env": {
         "AA": {
             "description": "初阶用户只需填写App name后按需修改以下APASSWORD和AUUID两项后点击页面最后的Deploy app按钮即可开始部署",
@@ -9,7 +9,7 @@
         },
         "APASSWORD": {
             "description": "SS|BROOK|GOST|TROJAN使用的密码",
-            "value": "88888888"
+            "value": "password"
         },
         "TOREnable": {
             "description": "TOR开关，默认关闭，修改为true时候启用",
@@ -47,9 +47,9 @@
             "description": "GOST开关，默认启用，修改为false时关闭",
             "value": "true"
         },
-        "GOSTSPATH": {
+        "GOSTPATH": {
             "description": "GOSTS路径",
-            "value": "/gosts"
+            "value": "/gost"
         },
         "GOSTMETHOD": {
             "description": "自定义GOST运行参数，不熟悉GOST配置的请勿修改",
@@ -63,8 +63,8 @@
             "description": "BROOK路径",
             "value": "/brook"
         },
-        "V2RAYEnable": {
-            "description": "V2RAY开关，默认启用，修改为false时关闭",
+        "V2Enable": {
+            "description": "V2开关，默认启用，修改为false时关闭",
             "value": "false"
         },
         "VMESSPATH": {
@@ -80,7 +80,7 @@
             "value": "/trojan"
         },
         "AUUID": {
-            "description": "V2RAY使用的UUID,可生成UUID的网站: https://www.uuidgenerator.net",
+            "description": "V2使用的UUID,可生成UUID的网站: https://www.uuidgenerator.net",
             "value": "88888888-8888-8888-8888-888888888888"
         },
         "V2RAYCONFIG": {
