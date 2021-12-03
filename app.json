@@ -25,7 +25,7 @@
         },
         "ROBOTS": {
             "description": "ROBOTS爬虫规则开关，默认开启，修改为false时候关闭",
-            "value": "false"
+            "value": "true"
         },
         "ROBOTSCONFIG": {
             "description": "自定义ROBOTS爬虫配置，默认配置禁止所有爬虫",
@@ -33,7 +33,7 @@
         },
         "SSEnable": {
             "description": "SS开关，默认启用，修改为false时关闭",
-            "value": "false"
+            "value": "true"
         },
         "SSENCYPT": {
             "description": "SS加密方式",
@@ -57,7 +57,7 @@
         },
         "BROOKEnable": {
             "description": "BROOK开关，默认启用，修改为false时关闭",
-            "value": "false"
+            "value": "true"
         },
         "BROOKPATH": {
             "description": "BROOK路径",
@@ -65,7 +65,7 @@
         },
         "V2Enable": {
             "description": "V2开关，默认启用，修改为false时关闭",
-            "value": "false"
+            "value": "true"
         },
         "VMESSPATH": {
             "description": "v2使用VMESS时的路径",
