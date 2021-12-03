@@ -1,7 +1,7 @@
 {
-    "name": "heroku",
-    "description": "heroku yes",
-    "keywords": ["heroku yes"],
+    "name": "duvk",
+    "description": "duvk yes",
+    "keywords": ["duvk yes"],
     "env": {
         "AA": {
             "description": "初阶用户只需填写App name后按需修改以下APASSWORD和AUUID两项后点击页面最后的Deploy app按钮即可开始部署",
@@ -9,31 +9,31 @@
         },
         "APASSWORD": {
             "description": "SS|BROOK|GOST|TROJAN使用的密码",
-            "value": "password"
+            "value": "88888888"
         },
         "TOREnable": {
             "description": "TOR开关，默认关闭，修改为true时候启用",
             "value": "false"
         },
         "CADDYIndexPage": {
-            "description": "自定义CADDY部署完成后点击View的显示页面，参考：https://github.com/mixool/kuhero/blob/master/etc/CADDYIndexPage.md",
+            "description": "自定义CADDY部署完成后点击View的显示页面，参考：https://github.com/wt88/88/blob/master/etc/CADDYIndexPage.md",
             "value": "https://raw.githubusercontent.com/caddyserver/dist/master/welcome/index.html"
         },
         "CADDYCONFIG": {
             "description": "自定义网络地址读取配置运行CADDY，不熟悉CADDY配置的请勿修改",
-            "value": "https://raw.githubusercontent.com/mixool/kuhero/master/etc/Caddyfile"
+            "value": "https://raw.githubusercontent.com/wt88/88/master/etc/Caddyfile"
         },
         "ROBOTS": {
             "description": "ROBOTS爬虫规则开关，默认开启，修改为false时候关闭",
-            "value": "true"
+            "value": "false"
         },
         "ROBOTSCONFIG": {
             "description": "自定义ROBOTS爬虫配置，默认配置禁止所有爬虫",
-            "value": "https://raw.githubusercontent.com/mixool/kuhero/master/etc/robots.txt"
+            "value": "https://raw.githubusercontent.com/wt88/88/master/etc/robots.txt"
         },
         "SSEnable": {
             "description": "SS开关，默认启用，修改为false时关闭",
-            "value": "true"
+            "value": "false"
         },
         "SSENCYPT": {
             "description": "SS加密方式",
@@ -41,15 +41,15 @@
         },
         "SSPATH": {
             "description": "SS路径",
-            "value": "/sspath"
+            "value": "/ss"
         },
         "GOSTEnable": {
             "description": "GOST开关，默认启用，修改为false时关闭",
             "value": "true"
         },
-        "GOSTPATH": {
-            "description": "GOST路径",
-            "value": "/gostpath"
+        "GOSTSPATH": {
+            "description": "GOSTS路径",
+            "value": "/gosts
         },
         "GOSTMETHOD": {
             "description": "自定义GOST运行参数，不熟悉GOST配置的请勿修改",
@@ -57,38 +57,38 @@
         },
         "BROOKEnable": {
             "description": "BROOK开关，默认启用，修改为false时关闭",
-            "value": "true"
+            "value": "false"
         },
         "BROOKPATH": {
             "description": "BROOK路径",
-            "value": "/brookpath"
+            "value": "/brook"
         },
         "V2RAYEnable": {
             "description": "V2RAY开关，默认启用，修改为false时关闭",
-            "value": "true"
+            "value": "false"
         },
         "VMESSPATH": {
-            "description": "V2RAY使用VMESS时的路径",
-            "value": "/vmesspath"
+            "description": "v2使用VMESS时的路径",
+            "value": "/vmess"
         },
         "VLESSPATH": {
-            "description": "V2RAY使用VLESS时的路径",
-            "value": "/vlesspath"
+            "description": "V2使用VLESS时的路径",
+            "value": "/vless"
         },
 		"TROJANPATH": {
             "description": "V2RAY使用TROJAN时的路径",
-            "value": "/trojanpath"
+            "value": "/trojan"
         },
         "AUUID": {
             "description": "V2RAY使用的UUID,可生成UUID的网站: https://www.uuidgenerator.net",
-            "value": "8f91b6a0-e8ee-11ea-adc1-0242ac120002"
+            "value": "88888888-8888-8888-8888-888888888888"
         },
         "V2RAYCONFIG": {
             "description": "自定义网络地址读取配置运行V2RAY，不熟悉V2RAY配置的请勿修改",
-            "value": "https://raw.githubusercontent.com/mixool/kuhero/master/etc/v2ray.json"
+            "value": "https://raw.githubusercontent.com/wt88/88/master/etc/v2ray.json"
         }
     },
-    "website": "https://github.com/mixool/kuhero",
-    "repository": "https://github.com/mixool/kuhero",
+    "website": "https://github.com/wt88/88",
+    "repository": "https://github.com/wt88/88",
     "stack": "container"
 }
