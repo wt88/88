@@ -49,7 +49,7 @@
         },
         "GOSTSPATH": {
             "description": "GOSTS路径",
-            "value": "/gosts
+            "value": "/gosts"
         },
         "GOSTMETHOD": {
             "description": "自定义GOST运行参数，不熟悉GOST配置的请勿修改",
